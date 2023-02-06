@@ -1,0 +1,39 @@
+h1{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+    cursor: grab;
+}
+
+#first{
+    color: green;
+}
+#second{
+    color: red;
+}
+#third{
+    color: black;
+}
+
+.one{
+    font-style: italic;
+}
+.two{
+    color: blueviolet;
+}
+#three{
+    color: black;
+}
+
+.box{
+    color: orange;
+    margin: 30px;
+    padding: 30px 62px;
+    border: 3px dotted black;
+   
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
