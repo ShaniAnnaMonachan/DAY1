@@ -1,23 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
 .web{
-    color: blue;
-    margin: 10px;
-    padding: 10px 43px;
-    border: 3px double black;
-    background-color: aqua;
-   
-    justify-content: center;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center; 
+    background: #1abc9c; 
+    color: white;
 }
 .home{
-    margin-right: 200px;
-    padding:20px 30px;
-    font-size: x-large;
-    justify-content: center;
-    
+    margin:8px;
+    padding-top: 20px;
+
+    font-size:18px;
+      
 }
 .contact{
-    margin-left: 900px;
-    padding:20px 30px;
-    justify-content: center;
-    font-size: x-large;
+    margin-left: 500px;
+    padding:18px;
+    background-color: palevioletred;
+    font-size: 20px;
 
+}
+#para1{
+    font-size: 30px;
+    font-weight: bold;
+}
+#para2{
+   margin-bottom: 0px;
+}
+#image{
+    
+    object-fit: cover;
+    object-position: 80% 100%;
+    
+}
+.ct{
+    text-align: center;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
 }
